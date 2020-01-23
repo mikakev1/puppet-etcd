@@ -37,7 +37,7 @@ class etcd::params {
   $max_wals = 5
   $cors = undef
   $quota_backend_bytes = 0
-  $enable_v2 = true
+  $enable_v2 = false
 
   # cluster options
   $cluster_enabled = true
